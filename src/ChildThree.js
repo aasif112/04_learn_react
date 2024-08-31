@@ -7,7 +7,7 @@ import contextVariable from "./CounterContext";
 
 function ChildThree() {
     let newCount = useContext(contextVariable)
-    // newCount = coutState = [value, setValue]
+    // newCount = countState = [value, setValue]
     console.log(newCount)
     return(
         <div>

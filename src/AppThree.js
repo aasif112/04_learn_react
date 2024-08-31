@@ -9,15 +9,15 @@ import contextVariable from "./CounterContext"
 // Which is Accessed by createContext and useContext Way:
 
 function AppThree() {
-  let coutState = useState(1) 
-  // coutState = [value, setValue]
+  let countState = useState(1) 
+  // countState = [value, setValue]
   
   return (
-    <contextVariable.Provider value={coutState}>
+    <contextVariable.Provider value={countState}>
 
       <div >
         <br />
-        <h3>Random Number AppThree: {coutState} </h3>
+        <h3>Random Number AppThree: {countState} </h3>
         <br />
         <GrandParentThree />
 
