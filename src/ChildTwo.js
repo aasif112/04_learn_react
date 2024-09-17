@@ -18,7 +18,7 @@ function ChildTwo() {
                 {data.name} has a sister named: _{data.sister}
             </h2>
             <h2>{data.name}'s Date_Of_Birth is: <br />
-                {data.dob.day} - {data.dob.month} - {data.dob.month}
+                {data.dob.day} - {data.dob.month} - {data.dob.year}
             </h2>
         </div>
     )
